@@ -58,8 +58,17 @@ This parameter demonstrates the trade-off between **system efficiency and semant
  "result": "...",
  "dominant_cluster": 3
 }
-uvicorn main:app --reload
-```bash
+User Query
+↓
+Embedding Model
+↓
+Semantic Cache Check
+↓
+Vector Search (FAISS)
+↓
+Cluster Analysis
+↓
+API Response
 uvicorn main:app --reload
 
 
