@@ -58,12 +58,7 @@ This parameter demonstrates the trade-off between **system efficiency and semant
  "result": "...",
  "dominant_cluster": 3
 }
-- ✔ `main.py`
-- ✔ `requirements.txt`
-- ✔ folders: `data/`, `embeddings/`, `clustering/`, `cache/`
-- ✔ `README.md` with architecture explanation
-- ✔ API runs with:
-
+uvicorn main:app --reload
 ```bash
 uvicorn main:app --reload
 
