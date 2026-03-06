@@ -69,9 +69,19 @@ Vector Search (FAISS)
 Cluster Analysis
 ↓
 API Response
+
+This makes the repo look **very professional**. ✨
+
+---
+
+Make sure your repo has:
+
+- ✔ `main.py`
+- ✔ `requirements.txt`
+- ✔ folders: `data/`, `embeddings/`, `clustering/`, `cache/`
+- ✔ `README.md` with architecture explanation
+- ✔ API runs with:
+
+```bash
 uvicorn main:app --reload
-
-
-
-
 
