@@ -291,7 +291,7 @@ The semantic cache introduces a critical trade-off parameter: **similarity thres
 ## Benchmarks
 
 ```
-Test Dataset: 10,000 documents
+Test Dataset: 20,000 documents
 Average Query Time: 2.5ms (cache hit), 45ms (cache miss)
 Cache Hit Rate: 33.6% with threshold 0.85
 Memory Usage: ~850MB (vectors + FAISS index)
